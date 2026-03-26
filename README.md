@@ -42,7 +42,7 @@ Este projeto foi desenvolvido com o objetivo de aprimorar habilidades em desenvo
 
 ## 🌐 Acesse o Projeto
 
-👉 (coloque aqui o link do seu GitHub Pages)
+👉 (https://sophiamuniz28.github.io/CosmoTech_Site_de_Eletronicos/)
 
 ---
 
