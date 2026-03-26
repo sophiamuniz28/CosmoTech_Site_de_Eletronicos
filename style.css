@@ -1,0 +1,169 @@
+:root {
+    --bg:        #efeae0c0;   /* branco */
+    --surface:   #ffffff;   /* off-white */
+    --accent:    #e5e5e5e3;   /* cinza claro */
+    --text:      #1f1f1f;   /* quase preto */
+    --muted:     #a3a3a3;   /* cinza suave */
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: var(--bg);
+    color: var(--text);
+    text-align: center;
+    padding-top: 70px;
+}
+
+hr {
+    border: 1px solid var(--muted);
+    margin: 20px 0;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: var(--surface);
+    padding: 15px;
+    z-index: 1000;
+    border-bottom: 1px solid var(--accent);
+}
+
+nav a {
+    color: var(--text);
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #000;
+}
+
+.topo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: var(--surface);
+    border-bottom: 1px solid var(--accent);
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.menu a {
+    color: var(--text);
+    margin-left: 25px;
+}
+
+button {
+    background-color: #706c6c;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #333;
+}
+
+.produtos {
+    padding: 60px 20px;
+}
+
+.produtos h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.grid-produtos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.produto {
+    background-color: var(--surface);
+    padding: 20px;
+    border-radius: 12px;
+    border: 1px solid var(--accent);
+    transition: transform 0.2s;
+}
+
+.produto:hover {
+    transform: translateY(-5px);
+}
+
+.produto img {
+    width: 200px;
+    max-height: 220px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.produto h3 {
+    margin: 15px 0 10px;
+}
+
+.produto p {
+    color: var(--muted);
+}
+
+.rodape {
+    padding: 20px;
+    background-color: var(--surface);
+    margin-top: 50px;
+    border-top: 1px solid var(--accent);
+    color: var(--muted);
+}
+
+.body-contato {
+    padding-top: 90px;
+}
+
+.tabela-contato {
+    width: 60%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    border: 1px solid var(--accent);
+}
+
+.tabela-contato th {
+    background-color: var(--surface);
+    padding: 12px;
+}
+
+.tabela-contato td {
+    padding: 10px;
+    border-bottom: 1px solid var(--accent);
+}
+
+.tabela-contato input,
+.tabela-contato textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid var(--accent);
+    background-color: #fff;
+}
+
+.botoes-contato input {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+}

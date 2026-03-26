@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CosmoTech</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="topo">
+
+        <div class="logo">CosmoTech</div>
+
+        <nav class="menu">
+            <a href="index.html">Home</a> |
+            <a href="produtos.html">Produtos</a> |
+            <a href="contato.html">Contato</a>
+
+        </nav>
+
+    </header>
+
+    <h1>Fale Conosco</h1>
+
+    <form action="#" method="post">
+
+        <table class="tabela-contato">
+
+            <tr>
+                <th colspan="2">Formulário de Contato - CosmoTech</th>
+            </tr>
+
+            <tr>
+                <td>Nome:</td>
+                <td>
+                    <input type="text" name="nome" maxlength="30" placeholder="Digite seu nome" required>
+                </td>
+            </tr>
+
+            <tr>
+                <td>E-mail:</td>
+                <td>
+                    <input type="email" name="email" maxlength="50" placeholder="exemplo@gmail.com" required>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Telefone:</td>
+                <td>
+                    <input type="tel" name="telefone" placeholder="(11) 12345-6789">
+                </td>
+            </tr>
+
+            <tr>
+                <td>Data de nascimento:</td>
+                <td>
+                    <input type="date" name="data">
+                </td>
+            </tr>
+
+            <tr>
+                <td>Tipo de assunto:</td>
+                <td>
+                    <input list="assunto" name="assunto">
+                    <datalist id="assunto">
+                        <option value="Troca de produto">
+                        <option value="Devolução">
+                        <option value="Problema no pagamento">
+                        <option value="Acompanhamento de pedido">
+                        <option value="Garantia">
+                        <option value="Suporte técnico">
+                        <option value="Solicitação de orçamento">
+                        <option value="Cancelamento de pedido">
+                        <option value="Atualização de cadastro">
+                        <option value="Elogio ao atendimento">
+                        <option value="Sugestão de melhoria">
+                        <option value="Reclamação">
+                    </datalist>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Mensagem:</td>
+                <td>
+                    <textarea name="mensagem" rows="4" placeholder="Digite sua mensagem"></textarea>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2" class="botoes-contato">
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Limpar">
+                </td>
+            </tr>
+
+        </table>
+
+    </form>
+
+    <footer class="rodape">
+        <p>© 2026 CosmoTech - Tecnologia do Futuro</p>
+    </footer>
+
+</body>
+
+</html>
